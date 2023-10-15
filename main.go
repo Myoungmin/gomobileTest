@@ -1,4 +1,4 @@
-package main
+package gomobileTest
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 	"github.com/gorilla/websocket"
 )
 
-func main() {
+func Main() {
 	port := 8080
 
 	http.HandleFunc("/", socketHandler)
