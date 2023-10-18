@@ -1,4 +1,4 @@
-%module example
+%module examplePackage
 %{
 #include "jni/example.h"
 %}
